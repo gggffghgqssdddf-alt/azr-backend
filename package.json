@@ -1,0 +1,13 @@
+{
+  "name": "azr-backend",
+  "version": "1.0.0",
+  "description": "AZR LOV Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.40.0"
+  }
+}
