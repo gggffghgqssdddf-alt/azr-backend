@@ -28,7 +28,6 @@ app.post('/api/v1/azr/chat', async (req, res) => {
         console.log(`[AZR] License: ${licenseKey ? 'provided' : 'none'}`);
 
         // محاكاة معالجة ناجحة
-        // في الإصدار الحقيقي، هنا ستستخدم Playwright للتفاعل مع Lovable
         setTimeout(() => {
             res.status(202).json({
                 ok: true,
